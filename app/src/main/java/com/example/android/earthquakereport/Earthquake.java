@@ -14,7 +14,7 @@ public class Earthquake {
         mTimeInMilliseconds = timeInMilliseconds;
     }
 
-    public double getmagnitude() {
+    public double getMagnitude() {
         return mMagnitude;
     }
 
