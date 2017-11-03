@@ -16,11 +16,11 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Earthquake> earthquakes = new ArrayList<>();
         earthquakes.add(new Earthquake(7.333, "42 km W of San Francisco", 1793459375));
         earthquakes.add(new Earthquake(7.333, "San Francisco", 1793459375));
-//        earthquakes.add(new Earthquake(7.2, "San Francisco", "Feb 2, 2016"));
-//        earthquakes.add(new Earthquake(7.2, "San Francisco", "Feb 2, 2016"));
-//        earthquakes.add(new Earthquake(7.2, "San Francisco", "Feb 2, 2016"));
-//        earthquakes.add(new Earthquake(7.2, "San Francisco", "Feb 2, 2016"));
-//        earthquakes.add(new Earthquake(7.2, "San Francisco", "Feb 2, 2016"));
+        earthquakes.add(new Earthquake(1.0, "San Francisco", 1793459375));
+        earthquakes.add(new Earthquake(5.2, "San Francisco", 1793459375));
+        earthquakes.add(new Earthquake(3.2, "San Francisco", 1793459375));
+        earthquakes.add(new Earthquake(4.2, "San Francisco", 1793459375));
+        earthquakes.add(new Earthquake(10.2, "San Francisco", 1793459375));
 
         EarthquakeAdapter adapter = new EarthquakeAdapter(this, earthquakes);
         ListView listView = (ListView) findViewById(R.id.list_view);
